@@ -1,0 +1,75 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript build outputs
+dist/
+out/
+build/
+
+# TypeScript specific
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Environment files
+.env
+.env.*.local
+
+# IDE / IntelliJ specific files
+.idea/
+*.iml
+*.iws
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
+.idea/jsLibraryMappings.xml
+
+# MacOS
+.DS_Store
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Optional coverage directory
+coverage/
+
+# Optional dependency directories
+.jspm/
+.vscode/
+
+# Optional parcel-bundler cache
+.cache/
+
+# Output of 'npm pack'
+*.tgz
+
+# IDE and Editor-specific settings
+*.swp
+*~
+
+# Sentry environment files
+.sentrycli
+.sentryclirc
+
+# Additional cache
+.cache-loader/
+.pnp/
+.pnp.js
+__pycache__/
+
+# Uncomment if using TSLint
+# .tslintcache
